@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script pings an IP address passed as an argument.
+# envoi 5 paquets (-c 5) ICMP (Internet Control Message Protocol) à une adresse IP spécifiée en argument ($1) pour vérifier si l'hôte est actif
 if [ ! "$1" ]
 then
 	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
